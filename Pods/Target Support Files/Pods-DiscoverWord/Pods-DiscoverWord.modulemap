@@ -1,0 +1,6 @@
+framework module Pods_DiscoverWord {
+  umbrella header "Pods-DiscoverWord-umbrella.h"
+
+  export *
+  module * { export * }
+}
