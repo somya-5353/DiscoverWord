@@ -14,6 +14,7 @@
 		EFA1244924A3B95F00359BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA1244724A3B95F00359BBD /* Main.storyboard */; };
 		EFA1244B24A3B96100359BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA1244A24A3B96100359BBD /* Assets.xcassets */; };
 		EFA1244E24A3B96100359BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA1244C24A3B96100359BBD /* LaunchScreen.storyboard */; };
+		EFCBF3E424A8FF46004B0CAC /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBF3E324A8FF46004B0CAC /* DictionaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EFA1244A24A3B96100359BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA1244D24A3B96100359BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFA1244F24A3B96100359BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCBF3E324A8FF46004B0CAC /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				EF67FEC924A89C500092FF1B /* Root View Controller */,
+				EFCBF3E324A8FF46004B0CAC /* DictionaryViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 		EFA1244024A3B95F00359BBD /* DiscoverWord */ = {
 			isa = PBXGroup;
 			children = (
+				EFCBF3E524A906C6004B0CAC /* Views */,
 				EF67FECA24A89C6D0092FF1B /* StoryBoards */,
 				EF67FEC724A89C0F0092FF1B /* Application Delegates */,
 				EF67FEC824A89C3E0092FF1B /* View Controllers */,
@@ -128,6 +132,13 @@
 				EF67FECC24A89CB20092FF1B /* Supporting Files */,
 			);
 			path = DiscoverWord;
+			sourceTree = "<group>";
+		};
+		EFCBF3E524A906C6004B0CAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		FC2C528D6E751EEA25C6E226 /* Pods */ = {
@@ -256,6 +267,7 @@
 			files = (
 				EFA1244624A3B95F00359BBD /* ViewController.swift in Sources */,
 				EFA1244224A3B95F00359BBD /* AppDelegate.swift in Sources */,
+				EFCBF3E424A8FF46004B0CAC /* DictionaryViewController.swift in Sources */,
 				EFA1244424A3B95F00359BBD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
