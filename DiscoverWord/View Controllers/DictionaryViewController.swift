@@ -29,6 +29,8 @@ class DictionaryViewController: UIViewController {
     
     func setUpUI() {
         
+        self.navigationItem.title = "Discover  Words"
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white,NSAttributedString.Key.font:UIFont(name: "Marker Felt", size: 23)!]
         self.definitionButton.backgroundColor = UIColor(red: 0, green: 0, blue: 128/255, alpha: 1)
         self.miscellaneousButton.backgroundColor = UIColor(red: 0, green: 0, blue: 128/255, alpha: 1)
         self.synonymButton.backgroundColor = UIColor(red: 0, green: 0, blue: 128/255, alpha: 1)
