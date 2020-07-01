@@ -15,8 +15,6 @@ class DictionaryViewController: UIViewController {
     @IBOutlet weak var miscellaneousButton: UIButton!
     
     @IBOutlet weak var view3: UIView!
-    
-    
     @IBOutlet weak var view1: UIView!
     @IBOutlet weak var view2: UIView!
     

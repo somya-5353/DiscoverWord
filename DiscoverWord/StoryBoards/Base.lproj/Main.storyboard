@@ -118,6 +118,7 @@
                         <outlet property="start" destination="EiJ-bA-XJf" id="HV2-1L-trf"/>
                         <outlet property="topImage" destination="Mol-VX-oqH" id="BTx-Zl-Qvw"/>
                         <outlet property="topLabel" destination="lJs-Hx-FFd" id="LSd-Vn-K9r"/>
+                        <outlet property="topLabelConstraint" destination="cbd-5T-eSr" id="k2q-Aw-zkZ"/>
                         <outlet property="view1" destination="YA1-9a-ifh" id="ZAj-XA-5Qi"/>
                         <outlet property="view2" destination="FB6-ml-NMN" id="0dB-cE-4BK"/>
                         <outlet property="view3" destination="KGF-DQ-Noy" id="JdL-MF-nnb"/>
