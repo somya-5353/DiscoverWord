@@ -13,15 +13,18 @@ class DictionaryViewController: UIViewController {
     @IBOutlet weak var definitionButton: UIButton!
     @IBOutlet weak var synonymButton: UIButton!
     @IBOutlet weak var miscellaneousButton: UIButton!
-    
     @IBOutlet weak var view3: UIView!
     @IBOutlet weak var view1: UIView!
     @IBOutlet weak var view2: UIView!
     
+   // var dp = DataProvider()
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0, green: 0, blue: 128/255, alpha: 1)
         setUpUI()
+       // dp.getData(category: "words", word: "temple")
         
     }
     

@@ -14,6 +14,9 @@
 		EFA1244924A3B95F00359BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA1244724A3B95F00359BBD /* Main.storyboard */; };
 		EFA1244B24A3B96100359BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA1244A24A3B96100359BBD /* Assets.xcassets */; };
 		EFA1244E24A3B96100359BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA1244C24A3B96100359BBD /* LaunchScreen.storyboard */; };
+		EFBADBFB24B0778A001855AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBADBFA24B0778A001855AF /* Constants.swift */; };
+		EFBADBFE24B07C88001855AF /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBADBFD24B07C88001855AF /* WordModel.swift */; };
+		EFBADC0124B0B273001855AF /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBADC0024B0B273001855AF /* DataProvider.swift */; };
 		EFCBF3E424A8FF46004B0CAC /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBF3E324A8FF46004B0CAC /* DictionaryViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,9 @@
 		EFA1244A24A3B96100359BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA1244D24A3B96100359BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFA1244F24A3B96100359BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBADBFA24B0778A001855AF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EFBADBFD24B07C88001855AF /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
+		EFBADC0024B0B273001855AF /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		EFCBF3E324A8FF46004B0CAC /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,14 +130,41 @@
 		EFA1244024A3B95F00359BBD /* DiscoverWord */ = {
 			isa = PBXGroup;
 			children = (
+				EFBADBFF24B0B259001855AF /* DataProvider */,
 				EFCBF3E524A906C6004B0CAC /* Views */,
 				EF67FECA24A89C6D0092FF1B /* StoryBoards */,
+				EFBADBF924B0775F001855AF /* Constants */,
+				EFBADBFC24B07C5B001855AF /* Models */,
 				EF67FEC724A89C0F0092FF1B /* Application Delegates */,
 				EF67FEC824A89C3E0092FF1B /* View Controllers */,
 				EF67FECB24A89C920092FF1B /* Resources */,
 				EF67FECC24A89CB20092FF1B /* Supporting Files */,
 			);
 			path = DiscoverWord;
+			sourceTree = "<group>";
+		};
+		EFBADBF924B0775F001855AF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EFBADBFA24B0778A001855AF /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EFBADBFC24B07C5B001855AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFBADBFD24B07C88001855AF /* WordModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EFBADBFF24B0B259001855AF /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				EFBADC0024B0B273001855AF /* DataProvider.swift */,
+			);
+			path = DataProvider;
 			sourceTree = "<group>";
 		};
 		EFCBF3E524A906C6004B0CAC /* Views */ = {
@@ -265,7 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBADBFB24B0778A001855AF /* Constants.swift in Sources */,
+				EFBADBFE24B07C88001855AF /* WordModel.swift in Sources */,
 				EFA1244624A3B95F00359BBD /* ViewController.swift in Sources */,
+				EFBADC0124B0B273001855AF /* DataProvider.swift in Sources */,
 				EFA1244224A3B95F00359BBD /* AppDelegate.swift in Sources */,
 				EFCBF3E424A8FF46004B0CAC /* DictionaryViewController.swift in Sources */,
 				EFA1244424A3B95F00359BBD /* SceneDelegate.swift in Sources */,
