@@ -17,6 +17,7 @@
 		EFBADBFB24B0778A001855AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBADBFA24B0778A001855AF /* Constants.swift */; };
 		EFBADBFE24B07C88001855AF /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBADBFD24B07C88001855AF /* WordModel.swift */; };
 		EFBADC0124B0B273001855AF /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBADC0024B0B273001855AF /* DataProvider.swift */; };
+		EFBADC2D24B4B84C001855AF /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBADC2C24B4B84C001855AF /* DesignableTextField.swift */; };
 		EFCBF3E424A8FF46004B0CAC /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBF3E324A8FF46004B0CAC /* DictionaryViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		EFBADBFA24B0778A001855AF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EFBADBFD24B07C88001855AF /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
 		EFBADC0024B0B273001855AF /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		EFBADC2C24B4B84C001855AF /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
 		EFCBF3E324A8FF46004B0CAC /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 				EFBADBFC24B07C5B001855AF /* Models */,
 				EF67FEC724A89C0F0092FF1B /* Application Delegates */,
 				EF67FEC824A89C3E0092FF1B /* View Controllers */,
+				EFBADC2B24B4B767001855AF /* Helpers */,
 				EF67FECB24A89C920092FF1B /* Resources */,
 				EF67FECC24A89CB20092FF1B /* Supporting Files */,
 			);
@@ -165,6 +168,14 @@
 				EFBADC0024B0B273001855AF /* DataProvider.swift */,
 			);
 			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		EFBADC2B24B4B767001855AF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EFBADC2C24B4B84C001855AF /* DesignableTextField.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		EFCBF3E524A906C6004B0CAC /* Views */ = {
@@ -301,6 +312,7 @@
 				EFBADBFB24B0778A001855AF /* Constants.swift in Sources */,
 				EFBADBFE24B07C88001855AF /* WordModel.swift in Sources */,
 				EFA1244624A3B95F00359BBD /* ViewController.swift in Sources */,
+				EFBADC2D24B4B84C001855AF /* DesignableTextField.swift in Sources */,
 				EFBADC0124B0B273001855AF /* DataProvider.swift in Sources */,
 				EFA1244224A3B95F00359BBD /* AppDelegate.swift in Sources */,
 				EFCBF3E424A8FF46004B0CAC /* DictionaryViewController.swift in Sources */,

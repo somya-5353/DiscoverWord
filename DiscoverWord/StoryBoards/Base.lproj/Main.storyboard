@@ -217,9 +217,40 @@
                                     <constraint firstAttribute="height" constant="5" id="E4C-BV-ziB"/>
                                 </constraints>
                             </view>
+                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T6F-i7-4Qd">
+                                <rect key="frame" x="0.0" y="130" width="375" height="537"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="0W9-32-Qwc">
+                                <rect key="frame" x="12.5" y="160" width="350" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="9k1-mo-XbA"/>
+                                    <constraint firstAttribute="height" constant="200" id="hSK-l9-IF3"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VDd-Ld-3od">
+                                <rect key="frame" x="12.5" y="160" width="350" height="200"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5vK-UW-mkE" customClass="DesignableTextField" customModule="DiscoverWord" customModuleProvider="target">
+                                        <rect key="frame" x="25" y="49" width="300" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="8Kg-VK-nbn"/>
+                                            <constraint firstAttribute="width" constant="300" id="Qay-wW-Q6c"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="alphabet" textContentType="name"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="0.69838934075342463" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="5vK-UW-mkE" firstAttribute="centerX" secondItem="VDd-Ld-3od" secondAttribute="centerX" id="3bl-xv-a3n"/>
+                                    <constraint firstItem="5vK-UW-mkE" firstAttribute="top" secondItem="VDd-Ld-3od" secondAttribute="top" constant="49" id="zIs-J8-0yO"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="0W9-32-Qwc" firstAttribute="top" secondItem="LwC-lb-XxL" secondAttribute="bottom" constant="30" id="0Eh-I5-lUM"/>
                             <constraint firstItem="zUd-9t-WoR" firstAttribute="trailing" secondItem="g2U-SI-jLp" secondAttribute="trailing" id="52H-5i-csW"/>
                             <constraint firstItem="g2U-SI-jLp" firstAttribute="centerX" secondItem="tVZ-H4-HRr" secondAttribute="centerX" id="6it-rF-9oP"/>
                             <constraint firstItem="0vu-CK-UCy" firstAttribute="width" secondItem="dBi-PZ-zoE" secondAttribute="width" id="79A-91-thW"/>
@@ -227,12 +258,22 @@
                             <constraint firstItem="g2U-SI-jLp" firstAttribute="top" secondItem="tVZ-H4-HRr" secondAttribute="top" constant="50" id="CjH-jh-A9n"/>
                             <constraint firstItem="LwC-lb-XxL" firstAttribute="top" secondItem="g2U-SI-jLp" secondAttribute="bottom" id="IbA-Mw-sio"/>
                             <constraint firstItem="a6w-xa-bZl" firstAttribute="width" secondItem="WHG-m8-aAq" secondAttribute="width" multiplier="1.152" id="IsO-Nd-sc3"/>
+                            <constraint firstItem="T6F-i7-4Qd" firstAttribute="centerX" secondItem="tVZ-H4-HRr" secondAttribute="centerX" id="JgO-vo-f92"/>
+                            <constraint firstAttribute="bottom" secondItem="T6F-i7-4Qd" secondAttribute="bottom" id="bQx-Ke-yZY"/>
                             <constraint firstItem="a6w-xa-bZl" firstAttribute="leading" secondItem="0vu-CK-UCy" secondAttribute="trailing" id="bcm-de-QOk"/>
+                            <constraint firstItem="T6F-i7-4Qd" firstAttribute="top" secondItem="LwC-lb-XxL" secondAttribute="bottom" id="d6C-0b-p0z"/>
                             <constraint firstItem="a6w-xa-bZl" firstAttribute="top" secondItem="g2U-SI-jLp" secondAttribute="bottom" id="dxD-D9-MG5"/>
+                            <constraint firstItem="T6F-i7-4Qd" firstAttribute="leading" secondItem="zUd-9t-WoR" secondAttribute="leading" id="fCe-i2-7qi"/>
+                            <constraint firstItem="VDd-Ld-3od" firstAttribute="top" secondItem="LwC-lb-XxL" secondAttribute="bottom" constant="30" id="fbM-xf-aOG"/>
                             <constraint firstItem="LwC-lb-XxL" firstAttribute="width" secondItem="cZo-st-Bxe" secondAttribute="width" multiplier="1.064" id="gsg-vK-F5H"/>
                             <constraint firstItem="0vu-CK-UCy" firstAttribute="top" secondItem="g2U-SI-jLp" secondAttribute="bottom" id="iZ6-7o-UN0"/>
+                            <constraint firstItem="0W9-32-Qwc" firstAttribute="centerX" secondItem="tVZ-H4-HRr" secondAttribute="centerX" id="joa-fX-72O"/>
                             <constraint firstItem="LwC-lb-XxL" firstAttribute="leading" secondItem="tVZ-H4-HRr" secondAttribute="leading" id="qpF-IB-TNg"/>
+                            <constraint firstItem="VDd-Ld-3od" firstAttribute="height" secondItem="0W9-32-Qwc" secondAttribute="height" id="sQM-wn-OI7"/>
                             <constraint firstItem="g2U-SI-jLp" firstAttribute="leading" secondItem="zUd-9t-WoR" secondAttribute="leading" id="sct-SA-mgV"/>
+                            <constraint firstItem="VDd-Ld-3od" firstAttribute="width" secondItem="0W9-32-Qwc" secondAttribute="width" id="wdf-Af-1TP"/>
+                            <constraint firstItem="zUd-9t-WoR" firstAttribute="trailing" secondItem="T6F-i7-4Qd" secondAttribute="trailing" id="xe6-rz-qnV"/>
+                            <constraint firstItem="VDd-Ld-3od" firstAttribute="centerX" secondItem="tVZ-H4-HRr" secondAttribute="centerX" id="yxx-jO-Jz2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zUd-9t-WoR"/>
                     </view>
@@ -252,5 +293,6 @@
     </scenes>
     <resources>
         <image name="onboard3" width="156.5" height="200"/>
+        <image name="textFieldBackground" width="480" height="640"/>
     </resources>
 </document>
